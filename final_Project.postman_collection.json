@@ -1,0 +1,752 @@
+{
+	"info": {
+		"_postman_id": "8cc3d0f3-2d2b-4598-9b5d-d087817f9ec4",
+		"name": "final_Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25551834"
+	},
+	"item": [
+		{
+			"name": "accessories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/accessories",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"accessories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/categories",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "electronics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/electronics",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"electronics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/users",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/admin",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wishlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/wish-list",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"wish-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_Accessories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/accessories_insertion?ProductTitle=mo&Price=25&ProductRate=niih&CountryOfOrigin=644&Manufacturer=yyfy&ReviewsNumber=5849&Neutral=no&Negative=no&Positive=no&ID=16",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"accessories_insertion"
+					],
+					"query": [
+						{
+							"key": "ProductTitle",
+							"value": "mo"
+						},
+						{
+							"key": "Price",
+							"value": "25"
+						},
+						{
+							"key": "ProductRate",
+							"value": "niih"
+						},
+						{
+							"key": "CountryOfOrigin",
+							"value": "644"
+						},
+						{
+							"key": "Manufacturer",
+							"value": "yyfy"
+						},
+						{
+							"key": "ReviewsNumber",
+							"value": "5849"
+						},
+						{
+							"key": "Neutral",
+							"value": "no"
+						},
+						{
+							"key": "Negative",
+							"value": "no"
+						},
+						{
+							"key": "Positive",
+							"value": "no"
+						},
+						{
+							"key": "ID",
+							"value": "16"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/categories_insertion?id=3&name=sdsdf",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"categories_insertion"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3"
+						},
+						{
+							"key": "name",
+							"value": "sdsdf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_electronics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/electronics_insertion?ProductTitle=fyguhijo&Price=50&ProductRate=100&CountryOfOrigin=vvuug&Manufacturer=ygyfy&ReviewsNumber=626&Neutral=100&Negative=100&Positive=100&ID=55",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"electronics_insertion"
+					],
+					"query": [
+						{
+							"key": "ProductTitle",
+							"value": "fyguhijo"
+						},
+						{
+							"key": "Price",
+							"value": "50"
+						},
+						{
+							"key": "ProductRate",
+							"value": "100"
+						},
+						{
+							"key": "CountryOfOrigin",
+							"value": "vvuug"
+						},
+						{
+							"key": "Manufacturer",
+							"value": "ygyfy"
+						},
+						{
+							"key": "ReviewsNumber",
+							"value": "626"
+						},
+						{
+							"key": "Neutral",
+							"value": "100"
+						},
+						{
+							"key": "Negative",
+							"value": "100"
+						},
+						{
+							"key": "Positive",
+							"value": "100"
+						},
+						{
+							"key": "ID",
+							"value": "55"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/users_insertion?id=5&username=ni&email=ni@gmail.com&password=484787484",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"users_insertion"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						},
+						{
+							"key": "username",
+							"value": "ni"
+						},
+						{
+							"key": "email",
+							"value": "ni@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "484787484"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/admin_insertion?id=5&username=mohamed&email=moha.16@gmail.com&password=15448478",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"admin_insertion"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "5"
+						},
+						{
+							"key": "username",
+							"value": "mohamed"
+						},
+						{
+							"key": "email",
+							"value": "moha.16@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "15448478"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/wishlistInsertion?id=6&product-id=454&product-category=miiyh",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"wishlistInsertion"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6"
+						},
+						{
+							"key": "product-id",
+							"value": "454"
+						},
+						{
+							"key": "product-category",
+							"value": "miiyh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_Accessories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/updateAccessories/16?ProductTitle=motaha&price=45&ProductRate=not good&CountryOfOrigin=egypt&Manufacturer=american&ReviewsNumber=hundred&Neutral=yes&Negative=yes&Positive=yes&ID=2018",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"updateAccessories",
+						"16"
+					],
+					"query": [
+						{
+							"key": "ProductTitle",
+							"value": "motaha"
+						},
+						{
+							"key": "price",
+							"value": "45"
+						},
+						{
+							"key": "ProductRate",
+							"value": "not good"
+						},
+						{
+							"key": "CountryOfOrigin",
+							"value": "egypt"
+						},
+						{
+							"key": "Manufacturer",
+							"value": "american"
+						},
+						{
+							"key": "ReviewsNumber",
+							"value": "hundred"
+						},
+						{
+							"key": "Neutral",
+							"value": "yes"
+						},
+						{
+							"key": "Negative",
+							"value": "yes"
+						},
+						{
+							"key": "Positive",
+							"value": "yes"
+						},
+						{
+							"key": "ID",
+							"value": "2018"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_Categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/update_Categories/3?id=4&name=higfudyf",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"update_Categories",
+						"3"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						},
+						{
+							"key": "name",
+							"value": "higfudyf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_electronics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/update_electronics/55?ProductTitle=sdfghjk&Price=150&ProductRate=155&CountryOfOrigin=ihgu&Manufacturer=johgig&ReviewsNumber=266&Neutral=46&Negative=88&Positive=90&ID=11",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"update_electronics",
+						"55"
+					],
+					"query": [
+						{
+							"key": "ProductTitle",
+							"value": "sdfghjk"
+						},
+						{
+							"key": "Price",
+							"value": "150"
+						},
+						{
+							"key": "ProductRate",
+							"value": "155"
+						},
+						{
+							"key": "CountryOfOrigin",
+							"value": "ihgu"
+						},
+						{
+							"key": "Manufacturer",
+							"value": "johgig"
+						},
+						{
+							"key": "ReviewsNumber",
+							"value": "266"
+						},
+						{
+							"key": "Neutral",
+							"value": "46"
+						},
+						{
+							"key": "Negative",
+							"value": "88"
+						},
+						{
+							"key": "Positive",
+							"value": "90"
+						},
+						{
+							"key": "ID",
+							"value": "11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/update_users/5?id=1&username=khaled&email=khaled@gmail.com&password=8548487",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"update_users",
+						"5"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "username",
+							"value": "khaled"
+						},
+						{
+							"key": "email",
+							"value": "khaled@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "8548487"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/update_admin/5?id=1&username=saeyd&email=sayed@gmail.vuii&password=46979",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"update_admin",
+						"5"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "username",
+							"value": "saeyd"
+						},
+						{
+							"key": "email",
+							"value": "sayed@gmail.vuii"
+						},
+						{
+							"key": "password",
+							"value": "46979"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/update_wishlist/6?id=1&product-id=64&product-category=484",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"update_wishlist",
+						"6"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "product-id",
+							"value": "64"
+						},
+						{
+							"key": "product-category",
+							"value": "484"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_accessories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/Delete_accessories/16/",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"Delete_accessories",
+						"16",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/Delete_admin/1",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"Delete_admin",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/Delete_categories/4",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"Delete_categories",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_electronics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/Delete_electronics/55",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"Delete_electronics",
+						"55"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/Delete_users/1",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"Delete_users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}api/Delete_wishlist/1",
+					"host": [
+						"{{url}}api"
+					],
+					"path": [
+						"Delete_wishlist",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://127.0.0.1:8000/",
+			"type": "string"
+		}
+	]
+}
